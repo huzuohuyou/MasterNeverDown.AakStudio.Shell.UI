@@ -1,0 +1,333 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AakStudio.Shell.UI.Showcase/1.0.0": {
+        "dependencies": {
+          "AakStudio.Shell.UI": "0.1.6-beta-0328",
+          "AakStudio.Shell.UI.Themes.AvalonDock": "4.72.0",
+          "ICSharpCode.WpfDesign.Designer": "8.1.0",
+          "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon": "8.1.0",
+          "gong-wpf-dragdrop": "3.2.1",
+          "ICSharpCode.WpfDesign.Designer.Reference": "8.1.0.0",
+          "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon.Reference": "8.1.0.0",
+          "ICSharpCode.WpfDesign.Reference": "8.1.0.0",
+          "ICSharpCode.WpfDesign.XamlDom.Reference": "8.1.0.0"
+        },
+        "runtime": {
+          "AakStudio.Shell.UI.Showcase.dll": {}
+        }
+      },
+      "AakStudio.Shell.UI.Themes.AvalonDock/4.72.0": {
+        "dependencies": {
+          "ControlzEx": "6.0.0-alpha0277",
+          "Dirkster.AvalonDock": "4.72.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AakStudio.Shell.UI.Themes.AvalonDock.dll": {
+            "assemblyVersion": "4.72.0.0",
+            "fileVersion": "4.72.0.0"
+          }
+        }
+      },
+      "ControlzEx/6.0.0-alpha0277": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "System.Text.Json": "5.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.277"
+          }
+        }
+      },
+      "Dirkster.AvalonDock/4.72.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/AvalonDock.dll": {
+            "assemblyVersion": "4.72.0.0",
+            "fileVersion": "4.72.0.0"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.0/ca-ES/AvalonDock.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/netcoreapp3.0/cs-CZ/AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/netcoreapp3.0/de/AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.0/es/AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.0/fr/AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.0/hu/AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/netcoreapp3.0/it/AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.0/ja/AvalonDock.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.0/ko/AvalonDock.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.0/nl-BE/AvalonDock.resources.dll": {
+            "locale": "nl-BE"
+          },
+          "lib/netcoreapp3.0/pl/AvalonDock.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.0/pt/AvalonDock.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/netcoreapp3.0/ro/AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/netcoreapp3.0/ru/AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.0/sv/AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/netcoreapp3.0/zh-Hans/AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.0/zh-Hant/AvalonDock.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "gong-wpf-dragdrop/3.2.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.2.1.12"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.421.11614"
+          }
+        }
+      },
+      "System.Text.Json/5.0.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encodings.Web": "5.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.521.16609"
+          }
+        }
+      },
+      "AakStudio.Shell.UI/0.1.6-beta-0328": {
+        "dependencies": {
+          "ControlzEx": "6.0.0-alpha0277"
+        },
+        "runtime": {
+          "AakStudio.Shell.UI.dll": {}
+        }
+      },
+      "ICSharpCode.WpfDesign/8.1.0": {
+        "runtime": {
+          "ICSharpCode.WpfDesign.dll": {}
+        }
+      },
+      "ICSharpCode.WpfDesign.Designer/8.1.0": {
+        "dependencies": {
+          "ICSharpCode.WpfDesign": "8.1.0",
+          "ICSharpCode.WpfDesign.XamlDom": "8.1.0"
+        },
+        "runtime": {
+          "ICSharpCode.WpfDesign.Designer.dll": {}
+        }
+      },
+      "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon/8.1.0": {
+        "dependencies": {
+          "ICSharpCode.WpfDesign": "8.1.0",
+          "ICSharpCode.WpfDesign.Designer": "8.1.0",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon.dll": {}
+        }
+      },
+      "ICSharpCode.WpfDesign.XamlDom/8.1.0": {
+        "runtime": {
+          "ICSharpCode.WpfDesign.XamlDom.dll": {}
+        }
+      },
+      "ICSharpCode.WpfDesign.Designer.Reference/8.1.0.0": {
+        "runtime": {
+          "ICSharpCode.WpfDesign.Designer.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon.Reference/8.1.0.0": {
+        "runtime": {
+          "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "ICSharpCode.WpfDesign.Reference/8.1.0.0": {
+        "runtime": {
+          "ICSharpCode.WpfDesign.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "ICSharpCode.WpfDesign.XamlDom.Reference/8.1.0.0": {
+        "runtime": {
+          "ICSharpCode.WpfDesign.XamlDom.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AakStudio.Shell.UI.Showcase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AakStudio.Shell.UI.Themes.AvalonDock/4.72.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/3MX9pcrB9s0BAyLHhxTvF/tUYcTupiSLSsZLfWkMlYZfy5Bq2Rg6Ui8qfpP2hV8FDLvbXFV384KzMxx1LSlpw==",
+      "path": "aakstudio.shell.ui.themes.avalondock/4.72.0",
+      "hashPath": "aakstudio.shell.ui.themes.avalondock.4.72.0.nupkg.sha512"
+    },
+    "ControlzEx/6.0.0-alpha0277": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F0iHuwNW/VENEBDlmxucWdihhh/+MXpJ2oMsfzPO3ziWnwlimdY6bNUEjWUJYqHAGMYKOwwsAG14XXVFRCTH0Q==",
+      "path": "controlzex/6.0.0-alpha0277",
+      "hashPath": "controlzex.6.0.0-alpha0277.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock/4.72.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7/3SA06CnEpPW0wAiPqGtwFcaiJl550+csYmhboYwmK0VqJ7511PCusS0FeDKnItc6h1CwA8HcuEMFWZWEALjA==",
+      "path": "dirkster.avalondock/4.72.0",
+      "hashPath": "dirkster.avalondock.4.72.0.nupkg.sha512"
+    },
+    "gong-wpf-dragdrop/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-duqBiOHQobupqRdbLYcr+8BQeeuHkvPDHQs9lnLZ03sYkmJbk5ApXqgUfx7hPP7tN9qopFQKl6OlYIHixnI1iw==",
+      "path": "gong-wpf-dragdrop/3.2.1",
+      "hashPath": "gong-wpf-dragdrop.3.2.1.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KmJ+CJXizDofbq6mpqDoRRLcxgOd2z9X3XoFNULSbvbqVRZkFX3istvr+MUjL6Zw1RT+RNdoI4GYidIINtgvqQ==",
+      "path": "system.text.encodings.web/5.0.1",
+      "hashPath": "system.text.encodings.web.5.0.1.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "path": "system.text.json/5.0.2",
+      "hashPath": "system.text.json.5.0.2.nupkg.sha512"
+    },
+    "AakStudio.Shell.UI/0.1.6-beta-0328": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign/8.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign.Designer/8.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon/8.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign.XamlDom/8.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign.Designer.Reference/8.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign.Designer.ExpressionBlendInteractionAddon.Reference/8.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign.Reference/8.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.WpfDesign.XamlDom.Reference/8.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

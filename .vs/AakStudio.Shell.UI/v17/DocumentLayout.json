@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Repos\\AakStudio.Shell.UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5655550-6A84-43DA-96B5-3B2FA729DCA3}|AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj|c:\\repos\\aakstudio.shell.ui\\aakstudio.shell.ui.showcase\\controlviews\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5655550-6A84-43DA-96B5-3B2FA729DCA3}|AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj|solutionrelative:aakstudio.shell.ui.showcase\\controlviews\\menuview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5655550-6A84-43DA-96B5-3B2FA729DCA3}|AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj|c:\\repos\\aakstudio.shell.ui\\aakstudio.shell.ui.showcase\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D5655550-6A84-43DA-96B5-3B2FA729DCA3}|AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj|solutionrelative:aakstudio.shell.ui.showcase\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuView.xaml",
+              "DocumentMoniker": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\ControlViews\\MenuView.xaml",
+              "RelativeDocumentMoniker": "AakStudio.Shell.UI.Showcase\\ControlViews\\MenuView.xaml",
+              "ToolTip": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\ControlViews\\MenuView.xaml",
+              "RelativeToolTip": "AakStudio.Shell.UI.Showcase\\ControlViews\\MenuView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T08:51:44.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AakStudio.Shell.UI.Showcase\\MainWindow.xaml",
+              "ToolTip": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\MainWindow.xaml",
+              "RelativeToolTip": "AakStudio.Shell.UI.Showcase\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T08:47:42.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AakStudio.Shell.UI.Themes.AvalonDock/6.0.2": {
+        "dependencies": {
+          "ControlzEx": "6.0.0-alpha0277",
+          "Dirkster.AvalonDock": "4.72.1",
+          "Microsoft.SourceLink.GitHub": "1.1.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "8.0.0",
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "AakStudio.Shell.UI.Themes.AvalonDock.dll": {}
+        }
+      },
+      "ControlzEx/6.0.0-alpha0277": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.135",
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/ControlzEx.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.277"
+          }
+        }
+      },
+      "Dirkster.AvalonDock/4.72.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/AvalonDock.dll": {
+            "assemblyVersion": "4.72.1.0",
+            "fileVersion": "4.72.1.0"
+          }
+        },
+        "resources": {
+          "lib/net5.0-windows7.0/ca-ES/AvalonDock.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net5.0-windows7.0/cs-CZ/AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0-windows7.0/de/AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows7.0/es/AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows7.0/fr/AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows7.0/hu/AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0-windows7.0/it/AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0-windows7.0/ja/AvalonDock.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows7.0/ko/AvalonDock.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows7.0/nl-BE/AvalonDock.resources.dll": {
+            "locale": "nl-BE"
+          },
+          "lib/net5.0-windows7.0/pl/AvalonDock.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net5.0-windows7.0/pt/AvalonDock.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net5.0-windows7.0/ro/AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0-windows7.0/ru/AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows7.0/sv/AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0-windows7.0/zh-Hans/AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net5.0-windows7.0/zh-Hant/AvalonDock.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.Build.Tasks.Git/1.1.1": {},
+      "Microsoft.SourceLink.Common/1.1.1": {},
+      "Microsoft.SourceLink.GitHub/1.1.1": {
+        "dependencies": {
+          "Microsoft.Build.Tasks.Git": "1.1.1",
+          "Microsoft.SourceLink.Common": "1.1.1"
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.135.29210"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encodings.Web/8.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Text.Json/8.0.5": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AakStudio.Shell.UI.Themes.AvalonDock/6.0.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlzEx/6.0.0-alpha0277": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F0iHuwNW/VENEBDlmxucWdihhh/+MXpJ2oMsfzPO3ziWnwlimdY6bNUEjWUJYqHAGMYKOwwsAG14XXVFRCTH0Q==",
+      "path": "controlzex/6.0.0-alpha0277",
+      "hashPath": "controlzex.6.0.0-alpha0277.nupkg.sha512"
+    },
+    "Dirkster.AvalonDock/4.72.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5J03HVntDM3eu7GyzLWlNdr2c2TTBAoD33Pq1yCID7vEtk13VVngtlmegp67WUvpL5JUC8G2xU8n+ThZKKz0Q==",
+      "path": "dirkster.avalondock/4.72.1",
+      "hashPath": "dirkster.avalondock.4.72.1.nupkg.sha512"
+    },
+    "Microsoft.Build.Tasks.Git/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AT3HlgTjsqHnWpBHSNeR0KxbLZD7bztlZVj7I8vgeYG9SYqbeFGh0TM/KVtC6fg53nrWHl3VfZFvb5BiQFcY6Q==",
+      "path": "microsoft.build.tasks.git/1.1.1",
+      "hashPath": "microsoft.build.tasks.git.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.Common/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WMcGpWKrmJmzrNeuaEb23bEMnbtR/vLmvZtkAP5qWu7vQsY59GqfRJd65sFpBszbd2k/bQ8cs8eWawQKAabkVg==",
+      "path": "microsoft.sourcelink.common/1.1.1",
+      "hashPath": "microsoft.sourcelink.common.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.SourceLink.GitHub/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IaJGnOv/M7UQjRJks7B6p7pbPnOwisYGOIzqCz5ilGFTApZ3ktOR+6zJ12ZRPInulBmdAf1SrGdDG2MU8g6XTw==",
+      "path": "microsoft.sourcelink.github/1.1.1",
+      "hashPath": "microsoft.sourcelink.github.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r8qBEXmQfORso2+MVHnt8PSH4761zJ0SIxgQTSEDVLU97EN2FZdG6/ZCYUPhQy+OrPKgnpYBCAs3PS6Bs7wRsg==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.135",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
+    }
+  }
+}

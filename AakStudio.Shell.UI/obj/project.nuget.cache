@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "8tmdtrS2ilU=",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sesa669011\\.nuget\\packages\\controlzex\\6.0.0-alpha0277\\controlzex.6.0.0-alpha0277.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\microsoft.sourcelink.common\\1.1.1\\microsoft.sourcelink.common.1.1.1.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\microsoft.sourcelink.github\\1.1.1\\microsoft.sourcelink.github.1.1.1.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

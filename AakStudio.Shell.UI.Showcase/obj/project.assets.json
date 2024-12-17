@@ -1,0 +1,442 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "AakStudio.Shell.UI.Themes.AvalonDock/4.72.0": {
+        "type": "package",
+        "dependencies": {
+          "ControlzEx": "6.0.0-alpha0277",
+          "Dirkster.AvalonDock": "4.72.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/AakStudio.Shell.UI.Themes.AvalonDock.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/AakStudio.Shell.UI.Themes.AvalonDock.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "ControlzEx/6.0.0-alpha0277": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "System.Text.Json": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/ControlzEx.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/ControlzEx.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Dirkster.AvalonDock/4.72.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/AvalonDock.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/AvalonDock.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
+        "resource": {
+          "lib/net5.0-windows7.0/ca-ES/AvalonDock.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "lib/net5.0-windows7.0/cs-CZ/AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net5.0-windows7.0/de/AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows7.0/es/AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows7.0/fr/AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows7.0/hu/AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net5.0-windows7.0/it/AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0-windows7.0/ja/AvalonDock.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net5.0-windows7.0/ko/AvalonDock.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows7.0/nl-BE/AvalonDock.resources.dll": {
+            "locale": "nl-BE"
+          },
+          "lib/net5.0-windows7.0/pl/AvalonDock.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net5.0-windows7.0/pt/AvalonDock.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net5.0-windows7.0/ro/AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net5.0-windows7.0/ru/AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows7.0/sv/AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0-windows7.0/zh-Hans/AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net5.0-windows7.0/zh-Hant/AvalonDock.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "gong-wpf-dragdrop/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "System.Text.Json/5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "AakStudio.Shell.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ControlzEx": "6.0.0-alpha0277"
+        },
+        "compile": {
+          "bin/placeholder/AakStudio.Shell.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AakStudio.Shell.UI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "AakStudio.Shell.UI.Themes.AvalonDock/4.72.0": {
+      "sha512": "/3MX9pcrB9s0BAyLHhxTvF/tUYcTupiSLSsZLfWkMlYZfy5Bq2Rg6Ui8qfpP2hV8FDLvbXFV384KzMxx1LSlpw==",
+      "type": "package",
+      "path": "aakstudio.shell.ui.themes.avalondock/4.72.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "aakstudio.shell.ui.themes.avalondock.4.72.0.nupkg.sha512",
+        "aakstudio.shell.ui.themes.avalondock.nuspec",
+        "lib/net462/AakStudio.Shell.UI.Themes.AvalonDock.dll",
+        "lib/net6.0-windows7.0/AakStudio.Shell.UI.Themes.AvalonDock.dll",
+        "lib/netcoreapp3.1/AakStudio.Shell.UI.Themes.AvalonDock.dll"
+      ]
+    },
+    "ControlzEx/6.0.0-alpha0277": {
+      "sha512": "F0iHuwNW/VENEBDlmxucWdihhh/+MXpJ2oMsfzPO3ziWnwlimdY6bNUEjWUJYqHAGMYKOwwsAG14XXVFRCTH0Q==",
+      "type": "package",
+      "path": "controlzex/6.0.0-alpha0277",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "controlzex.6.0.0-alpha0277.nupkg.sha512",
+        "controlzex.nuspec",
+        "lib/net462/ControlzEx.dll",
+        "lib/net462/ControlzEx.xml",
+        "lib/net5.0-windows7.0/ControlzEx.dll",
+        "lib/net5.0-windows7.0/ControlzEx.xml",
+        "lib/netcoreapp3.1/ControlzEx.dll",
+        "lib/netcoreapp3.1/ControlzEx.xml",
+        "logo-mini.png"
+      ]
+    },
+    "Dirkster.AvalonDock/4.72.0": {
+      "sha512": "7/3SA06CnEpPW0wAiPqGtwFcaiJl550+csYmhboYwmK0VqJ7511PCusS0FeDKnItc6h1CwA8HcuEMFWZWEALjA==",
+      "type": "package",
+      "path": "dirkster.avalondock/4.72.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "dirkster.avalondock.4.72.0.nupkg.sha512",
+        "dirkster.avalondock.nuspec",
+        "lib/net40/AvalonDock.dll",
+        "lib/net40/ca-ES/AvalonDock.resources.dll",
+        "lib/net40/cs-CZ/AvalonDock.resources.dll",
+        "lib/net40/de/AvalonDock.resources.dll",
+        "lib/net40/es/AvalonDock.resources.dll",
+        "lib/net40/fr/AvalonDock.resources.dll",
+        "lib/net40/hu/AvalonDock.resources.dll",
+        "lib/net40/it/AvalonDock.resources.dll",
+        "lib/net40/ja/AvalonDock.resources.dll",
+        "lib/net40/ko/AvalonDock.resources.dll",
+        "lib/net40/nl-BE/AvalonDock.resources.dll",
+        "lib/net40/pl/AvalonDock.resources.dll",
+        "lib/net40/pt/AvalonDock.resources.dll",
+        "lib/net40/ro/AvalonDock.resources.dll",
+        "lib/net40/ru/AvalonDock.resources.dll",
+        "lib/net40/sv/AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/AvalonDock.resources.dll",
+        "lib/net40/zh-Hant/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/AvalonDock.dll",
+        "lib/net5.0-windows7.0/ca-ES/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/cs-CZ/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/de/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/es/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/fr/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/hu/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/it/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/ja/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/ko/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/nl-BE/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/pl/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/pt/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/ro/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/ru/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/sv/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/zh-Hans/AvalonDock.resources.dll",
+        "lib/net5.0-windows7.0/zh-Hant/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/AvalonDock.dll",
+        "lib/netcoreapp3.0/ca-ES/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/cs-CZ/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/de/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/es/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/fr/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/hu/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/it/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/ja/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/ko/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/nl-BE/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/pl/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/pt/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/ro/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/ru/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/sv/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/zh-Hans/AvalonDock.resources.dll",
+        "lib/netcoreapp3.0/zh-Hant/AvalonDock.resources.dll"
+      ]
+    },
+    "gong-wpf-dragdrop/3.2.1": {
+      "sha512": "duqBiOHQobupqRdbLYcr+8BQeeuHkvPDHQs9lnLZ03sYkmJbk5ApXqgUfx7hPP7tN9qopFQKl6OlYIHixnI1iw==",
+      "type": "package",
+      "path": "gong-wpf-dragdrop/3.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "GongSolutions.Wpf.DragDrop.png",
+        "LICENSE",
+        "gong-wpf-dragdrop.3.2.1.nupkg.sha512",
+        "gong-wpf-dragdrop.nuspec",
+        "lib/net462/GongSolutions.WPF.DragDrop.dll",
+        "lib/net462/GongSolutions.WPF.DragDrop.xml",
+        "lib/net47/GongSolutions.WPF.DragDrop.dll",
+        "lib/net47/GongSolutions.WPF.DragDrop.xml",
+        "lib/net48/GongSolutions.WPF.DragDrop.dll",
+        "lib/net48/GongSolutions.WPF.DragDrop.xml",
+        "lib/net5.0-windows7.0/GongSolutions.WPF.DragDrop.dll",
+        "lib/net5.0-windows7.0/GongSolutions.WPF.DragDrop.xml",
+        "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.dll",
+        "lib/net6.0-windows7.0/GongSolutions.WPF.DragDrop.xml",
+        "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.dll",
+        "lib/netcoreapp3.1/GongSolutions.WPF.DragDrop.xml"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "sha512": "8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/net5.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.1/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "System.Text.Json/5.0.2": {
+      "sha512": "I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "type": "package",
+      "path": "system.text.json/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "AakStudio.Shell.UI/1.0.0": {
+      "type": "project",
+      "path": "../AakStudio.Shell.UI/AakStudio.Shell.UI.csproj",
+      "msbuildProject": "../AakStudio.Shell.UI/AakStudio.Shell.UI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "AakStudio.Shell.UI >= 1.0.0",
+      "AakStudio.Shell.UI.Themes.AvalonDock >= 4.72.0",
+      "gong-wpf-dragdrop >= 3.2.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sesa669011\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj",
+      "projectName": "AakStudio.Shell.UI.Showcase",
+      "projectPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj",
+      "packagesPath": "C:\\Users\\sesa669011\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sesa669011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Repos\\CommunityToolkit.ReportStudio\\AakStudio.Shell.UI.Themes.AvalonDock\\bin\\Debug": {},
+        "C:\\Repos\\GenericScada\\IoT-Core\\IoT.Core.SDK\\bin\\Debug\\": {},
+        "C:\\Repos\\GenericScada\\IoT-Core\\IoT.Core\\bin\\Debug\\": {},
+        "C:\\Repos\\master-never-down.report-studio": {},
+        "C:\\Repos\\nugets": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj": {
+              "projectPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "AakStudio.Shell.UI.Themes.AvalonDock": {
+            "target": "Package",
+            "version": "[4.72.0, )"
+          },
+          "gong-wpf-dragdrop": {
+            "target": "Package",
+            "version": "[3.2.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

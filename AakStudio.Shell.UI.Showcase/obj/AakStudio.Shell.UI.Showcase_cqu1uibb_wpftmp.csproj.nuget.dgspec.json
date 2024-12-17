@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj": {}
+  },
+  "projects": {
+    "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj",
+        "projectName": "AakStudio.Shell.UI.Showcase",
+        "projectPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj",
+        "packagesPath": "C:\\Users\\sesa669011\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\sesa669011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462",
+          "net6.0-windows",
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Repos\\GenericScada\\IoT-Core\\IoT.Core.SDK\\bin\\Debug\\": {},
+          "C:\\Repos\\GenericScada\\IoT-Core\\IoT.Core\\bin\\Debug\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj": {
+                "projectPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj"
+              }
+            }
+          },
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj": {
+                "projectPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj"
+              }
+            }
+          },
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {
+              "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj": {
+                "projectPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AakStudio.Shell.UI.Themes.AvalonDock": {
+              "target": "Package",
+              "version": "[4.72.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3\\RuntimeIdentifierGraph.json"
+        },
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "AakStudio.Shell.UI.Themes.AvalonDock": {
+              "target": "Package",
+              "version": "[4.72.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3\\RuntimeIdentifierGraph.json"
+        },
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "AakStudio.Shell.UI.Themes.AvalonDock": {
+              "target": "Package",
+              "version": "[4.72.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj": {
+      "version": "0.1.6-beta-0328",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj",
+        "projectName": "AakStudio.Shell.UI",
+        "projectPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\AakStudio.Shell.UI.csproj",
+        "packagesPath": "C:\\Users\\sesa669011\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\sesa669011\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462",
+          "net6.0-windows",
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Repos\\GenericScada\\IoT-Core\\IoT.Core.SDK\\bin\\Debug\\": {},
+          "C:\\Repos\\GenericScada\\IoT-Core\\IoT.Core\\bin\\Debug\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          },
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          },
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "ControlzEx": {
+              "target": "Package",
+              "version": "[6.0.0-alpha0277, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3\\RuntimeIdentifierGraph.json"
+        },
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "ControlzEx": {
+              "target": "Package",
+              "version": "[6.0.0-alpha0277, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3\\RuntimeIdentifierGraph.json"
+        },
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "ControlzEx": {
+              "target": "Package",
+              "version": "[6.0.0-alpha0277, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-preview.5.24307.3\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

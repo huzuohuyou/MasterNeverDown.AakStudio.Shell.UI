@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "H7Sm51IgpqM=",
+  "success": true,
+  "projectFilePath": "C:\\Repos\\AakStudio.Shell.UI\\AakStudio.Shell.UI.Showcase\\AakStudio.Shell.UI.Showcase.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sesa669011\\.nuget\\packages\\aakstudio.shell.ui.themes.avalondock\\4.72.0\\aakstudio.shell.ui.themes.avalondock.4.72.0.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\controlzex\\6.0.0-alpha0277\\controlzex.6.0.0-alpha0277.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\dirkster.avalondock\\4.72.0\\dirkster.avalondock.4.72.0.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\gong-wpf-dragdrop\\3.2.1\\gong-wpf-dragdrop.3.2.1.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\sesa669011\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AakStudio.Shell.UI</id>
+    <version>0.1.6-beta-0328</version>
+    <authors>Noisrev</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>Wpf control styles and themes for AakStudio.</description>
+    <copyright>Copyright © 2022 - 2024</copyright>
+    <tags>WPF XAML UI Theme Visual Studio Shell Docking Blue Dark Light</tags>
+    <repository type="git" url="https://github.com/Noisrev/AakStudio.Shell.UI" commit="6c346b29ea37150ff609e0368cecd09ff4a4518e" />
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="ControlzEx" version="6.0.0-alpha0277" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Repos\AakStudio.Shell.UI\AakStudio.Shell.UI\bin\Debug\net6.0-windows\AakStudio.Shell.UI.dll" target="lib\net6.0-windows7.0\AakStudio.Shell.UI.dll" />
+    <file src="C:\Repos\AakStudio.Shell.UI\LICENSE.txt" target="\LICENSE.txt" />
+    <file src="C:\Repos\AakStudio.Shell.UI\README.md" target="\README.md" />
+  </files>
+</package>

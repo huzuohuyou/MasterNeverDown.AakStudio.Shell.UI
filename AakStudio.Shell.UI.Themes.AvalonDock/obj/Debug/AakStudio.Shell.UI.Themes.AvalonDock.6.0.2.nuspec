@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AakStudio.Shell.UI.Themes.AvalonDock</id>
+    <version>6.0.2</version>
+    <authors>Noisrev</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>AakStudio.Shell.UI Themes for AvalonDock.
+            VisualStudio 2019 (Blue)
+            VisualStudio 2019 (Dark)
+            VisualStudio 2019 (Light)
+            VisualStudio 2022 (Blue)
+            VisualStudio 2022 (Dark)
+            VisualStudio 2022 (Light)</description>
+    <copyright>Copyright © 2022 - 2024</copyright>
+    <tags>WPF XAML UI Theme Visual Studio Shell Docking Blue Dark Light</tags>
+    <repository type="git" url="https://github.com/Wenveo/AakStudio.Shell.UI.Themes.AvalonDock" branch="refs/heads/main" commit="cd6f6cbad40b61525face0f9f5e808ece449e676" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="ControlzEx" version="6.0.0-alpha0277" exclude="Build,Analyzers" />
+        <dependency id="Dirkster.AvalonDock" version="4.72.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Xaml.Behaviors.Wpf" version="1.1.135" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encodings.Web" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="ControlzEx" version="6.0.0-alpha0277" exclude="Build,Analyzers" />
+        <dependency id="Dirkster.AvalonDock" version="4.72.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Xaml.Behaviors.Wpf" version="1.1.135" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encodings.Web" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="ControlzEx" version="6.0.0-alpha0277" exclude="Build,Analyzers" />
+        <dependency id="Dirkster.AvalonDock" version="4.72.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Xaml.Behaviors.Wpf" version="1.1.135" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.CompilerServices.Unsafe" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encodings.Web" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+      <group targetFramework=".NETFramework4.6.2" />
+    </frameworkReferences>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="PresentationFramework.Aero" targetFramework=".NETFramework4.6.2" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Repos\AakStudio.Shell.UI\AakStudio.Shell.UI.Themes.AvalonDock\bin\Debug\net462\AakStudio.Shell.UI.Themes.AvalonDock.dll" target="lib\net462\AakStudio.Shell.UI.Themes.AvalonDock.dll" />
+    <file src="C:\Repos\AakStudio.Shell.UI\AakStudio.Shell.UI.Themes.AvalonDock\bin\Debug\net6.0-windows\AakStudio.Shell.UI.Themes.AvalonDock.dll" target="lib\net6.0-windows7.0\AakStudio.Shell.UI.Themes.AvalonDock.dll" />
+    <file src="C:\Repos\AakStudio.Shell.UI\AakStudio.Shell.UI.Themes.AvalonDock\bin\Debug\netcoreapp3.1\AakStudio.Shell.UI.Themes.AvalonDock.dll" target="lib\netcoreapp3.1\AakStudio.Shell.UI.Themes.AvalonDock.dll" />
+    <file src="C:\Repos\AakStudio.Shell.UI\LICENSE.txt" target="\LICENSE.txt" />
+    <file src="C:\Repos\AakStudio.Shell.UI\README.md" target="\README.md" />
+  </files>
+</package>
